@@ -2,7 +2,7 @@
 -- Udacity's Spring Boot Basics Course Final Project 
 
 ## Summary
-Cloud Storage is a web application that use Spring MVC architecture to implement three user-facing features:
+Cloud Storage is a web application that uses Spring MVC architecture to achieve three user-facing functionalities:
 
 1. **Simple File Storage:** Upload/download/remove files
 2. **Note Management:** Add/update/remove text notes
