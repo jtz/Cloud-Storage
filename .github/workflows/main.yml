@@ -61,8 +61,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: Jingtest
-          environment_name: Jingtest-env
+          application_name: test
+          environment_name: Test-env
           version_label: 12345
-          region: us-west-2
+          region: us-east-2
           deployment_package: cloudstorage-0.0.1-SNAPSHOT.jar
