@@ -102,6 +102,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+		<configuration>
+            <mainClass>com.udacity.jwdnd.course1.cloudstorage.CloudStorageApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
