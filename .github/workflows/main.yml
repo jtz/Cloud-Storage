@@ -29,7 +29,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: '11'
+          java-version: '15'
       #Run Tests
       - name: Run Tests
         run: mvn -B test
