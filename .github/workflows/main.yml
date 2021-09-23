@@ -25,11 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      #Set up JDK 15
+      #Set up JDK 11
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: '15'
+          java-version: '11'
       #Build the application using Maven
       - name: Build with Maven
         run: mvn -B package -DskipTests --file pom.xml
