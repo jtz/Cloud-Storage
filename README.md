@@ -1,8 +1,8 @@
-# Cloud Storage
+# Personal Cloud Storage
 -- Udacity's Spring Boot Basics Course Final Project 
 
 ## Summary
-Cloud Storage is a web application that uses Spring MVC architecture to achieve three user-facing functionalities:
+Personal Cloud Storage is a web application that uses Spring MVC architecture to achieve three user-facing functionalities:
 
 1. **Simple File Storage:** Upload/download/remove files
 2. **Note Management:** Add/update/remove text notes
